@@ -201,7 +201,7 @@ void parent(AST_NODE *table, AST_NODE *let_list)
 }
 
 // Set parent node 
-AST_NODE *newScope(AST_NODE *let_list, AST_NODE *expr)
+AST_NODE *let(AST_NODE *let_list, AST_NODE *expr)
 {
   AST_NODE *symbolTable;
 
