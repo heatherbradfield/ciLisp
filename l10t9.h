@@ -85,7 +85,7 @@ AST_NODE *let_elem(DATA_TYPE data_type, char *name, AST_NODE *symVal);
 void add(AST_NODE *let_list, AST_NODE *list_elem);
 AST_NODE *let_list(AST_NODE *let_elem, AST_NODE *let_list);
 
-AST_NODE *newScope(AST_NODE *let_list, AST_NODE *expr);
+AST_NODE *let(AST_NODE *let_list, AST_NODE *expr);
 void parent(AST_NODE *table, AST_NODE *let_list);
 
 AST_NODE *findDeclared(AST_NODE *let_list, char *value);
