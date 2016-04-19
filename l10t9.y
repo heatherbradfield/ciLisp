@@ -93,7 +93,7 @@ s_expr:
           $$ = condition($3, $4, $5);
         }
         | LPAREN LPAREN LET let_list RPAREN s_expr RPAREN {
-          $$ = newScope($4, $6);
+          $$ = let($4, $6);
         }
         | QUIT { 
                   //printf("QUIT\n"); 
