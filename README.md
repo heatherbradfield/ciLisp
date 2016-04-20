@@ -3,7 +3,7 @@
 
 This project was for my COMP232 class - Programming Language Design. It uses flex and bison for the grammar and parsing aspects. The project begins basically as a calculator and then each task adds additional functionality. 
 
-This language uses s-epxressions which are a special notation for operations (functions), in which the operator name and the operands are enclosed in parentheses, in prefix notation. This is common for Lisps. For example, "1+2" is noted as:
+This language uses s-expressions which are a special notation for operations (functions), in which the operator name and the operands are enclosed in parentheses, in prefix notation. This is common for Lisps. For example, "1+2" is noted as:
 
 `(add 1 2)`
 
